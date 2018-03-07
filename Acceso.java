@@ -24,17 +24,27 @@ public class Acceso
         ip = arrayDatos[0];
         codigo = Integer.parseInt(arrayDatos[7]);
     }
-
+    
+     /**
+     * Devuelve el año en la que el cliente ha accedido al servidor.
+     * @return Devuelve un int que es el año .
+     */    
     public int getAno() 
     {
         return ano;
     }
-
+     /**
+     * Devuelve el mes en la que el cliente ha accedido al servidor.
+     * @return Devuelve un int que es el mes .
+     */    
     public int getMes()
     {
         return mes;
     }
-
+     /**
+     * Devuelve el dia en la que el cliente ha accedido al servidor.
+     * @return Devuelve un int que es el dia .
+     */    
     public int getDia()
     {
         return dia;
